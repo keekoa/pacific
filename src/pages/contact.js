@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <section>
-          <h1>Welcome!</h1>
+          <h1>Contact</h1>
         </section>
       </main>
     </>

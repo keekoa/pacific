@@ -1,0 +1,82 @@
+.container {
+  transition: all 0.25s ease;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid;
+}
+
+.sticky .header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.logo {
+  transition: all 0.25s ease-out;
+}
+
+.header, .navbar {
+  transition: all 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(29, 123, 255);
+  background: linear-gradient(225deg, rgba(29, 123, 255, 1) 0%, rgba(29, 92, 255, 1) 50%, rgba(29, 81, 255, 1) 100%);
+  color: white;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.language {
+  border-bottom: 1px solid;
+  padding: 0 10px;
+  transition: all 0.25 ease;
+}
+
+.language:hover {
+  border-bottom: 2px solid;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.navbar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.navbar ul li:hover {
+  border-bottom: 3px solid;
+}

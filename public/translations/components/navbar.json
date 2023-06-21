@@ -1,0 +1,12 @@
+{
+  "navbar": [
+    {
+      "locale": "en-US",
+      "homeMenu": "Home"
+    },
+    {
+      "locale": "th-TH",
+      "homeMenu": "หน้าหลัก"
+    }
+  ]
+}
